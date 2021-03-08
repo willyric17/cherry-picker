@@ -1,5 +1,8 @@
 {
   "helloWorld": "Halo Dunia",
   "mainMenu": "Menu Utama",
-  "howTo": "Cara Penggunaan"
+  "howTo": "Cara Penggunaan",
+  "actionParse": "Urai",
+  "cherryPicker": "Cherry Picker",
+  "cherryPickInputHint":"Masukin hasil dari 'git log --oneline' dari branch utama"
 }

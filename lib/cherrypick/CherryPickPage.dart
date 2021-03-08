@@ -32,7 +32,8 @@ class _CherryPickState extends State {
                   child: TextField(
                     decoration: InputDecoration(
                         border: OutlineInputBorder(),
-                        hintText: "Enter 'git log --oneline' from base branch"),
+                        hintText:
+                            AppLocalizations.of(context).cherryPickInputHint),
                     scrollPadding: EdgeInsets.all(10),
                     controller: controller,
                     keyboardType: TextInputType.multiline,
@@ -47,14 +48,14 @@ class _CherryPickState extends State {
                     _output = presenter.getHashes(input);
                   });
                 },
-                child: Text("Parse")),
+                child: Text(AppLocalizations.of(context).actionParse)),
             size: Size(double.infinity, 50),
           ),
           Container(
               padding: EdgeInsets.all(10),
               child: SizedBox.fromSize(
                 child: Text(
-                  "Output: $_output",
+                  _output,
                   maxLines: 100,
                   textAlign: TextAlign.start,
                 ),

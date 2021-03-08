@@ -2,5 +2,7 @@
   "helloWorld": "Hello World!",
   "mainMenu": "Main Menu",
   "howTo": "How To Use",
-  "cherryPicker": "Cherry Picker"
+  "actionParse": "Parse",
+  "cherryPicker": "Cherry Picker",
+  "cherryPickInputHint" : "Enter 'git log --oneline' from base branch"
 }
