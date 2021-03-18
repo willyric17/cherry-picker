@@ -54,7 +54,7 @@ class _CherryPickState extends State {
           Container(
               padding: EdgeInsets.all(10),
               child: SizedBox.fromSize(
-                child: Text(
+                child: SelectableText(
                   _output,
                   maxLines: 100,
                   textAlign: TextAlign.start,
